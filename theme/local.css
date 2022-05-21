@@ -34,7 +34,33 @@ h3 { font-family: 'Alegreya SC', 'Garamond', 'Georgia'; font-weight: normal}
 h2 { font-family: 'Alegreya SC', 'Garamond', 'Georgia' ; font-weight: normal;}
 h1 { font-family: 'Alegreya SC', 'Garamond', 'Georgia' ; font-weight: normal;}
 h1,h2,h3,h4,h5,h6 { color: #000001; margin-bottom: 0px}
-.table th, .table td { line-height: 1.3em; }
+/* .table th, .table td { line-height: 1.3em; border: 1px solid; } */
+
+table {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid #dddddd;
+	border-collapse: collapse;
+}
+table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+}
+table td {
+	border: 1px solid #dddddd;
+	padding: 5px;
+}
+
+/* table {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 8px;
+} */
 
 .brand { font-family: 'Alegreya SC', 'Garamond', 'Georgia'; font-weight: normal; font-size: 42px; line-height:40px; margin-top: 10px; display: block; color:#000001; }
 
@@ -42,8 +68,6 @@ h1,h2,h3,h4,h5,h6 { color: #000001; margin-bottom: 0px}
 .article { padding-bottom:15px; padding-right: 40px; }
 .content-title { margin-bottom: 30px; }
 .article a:hover { text-decoration: none; }
-
-
 
 /* Styling for the "other entries" section */
 /* Metadata */
